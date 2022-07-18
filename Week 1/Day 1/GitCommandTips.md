@@ -1,7 +1,7 @@
 # Git Helpfull Tips
 
 
-### Verificar que cambios tenemos en linea para subir
+### Verificar que cambios tenemos en lMinea para subir
 
 
 >git status
