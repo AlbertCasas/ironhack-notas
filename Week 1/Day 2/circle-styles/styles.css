@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+
+
+html {
+    background-color: #F4F6FC;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+header {
+    height: 122px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav-ul li {
+    padding: 0 1rem;
+    list-style-type: none;
+}
+
+.nav-ul a {
+    text-decoration: none;
+    font-weight: 600
+}
+
+.nav-ul a:hover {
+    color: #072AC8;
+}
+
+.home {
+    color: #7DB8F7;
+}
+
+.no-home {
+    color: #6B708D;
+}
+
+.contact-us {
+    background-color: #072AC8;
+    padding: 15px 36px;
+}
+
+.contact-us:hover {
+    cursor: pointer;
+    background-color: #292E47;
+}
+
+.contact-us a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+#empower {
+    width: 1100px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    margin: 0 15%;
+}
+
+.empower-text {
+    width: 50%;
+    height: 422px;
+    margin-top: 50px;
+}
+
+.empower-h1 {
+    font-size: 2.5rem;
+    color: #292E47;
+    margin-bottom: 30px;
+}
+
+.empower-p {
+    font-size: 1.3rem;
+    color: #6B708D;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+.see-work {
+    color: #6B708D;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+.get-touch {
+    background-color: #072AC8;
+    color: white;
+    text-decoration: none;
+    padding: 15px 36px;
+    font-size: 1.2rem;
+}
+
+.empower-imgs {
+    width: 50%;
+    height: 650px;
+    display: flex;
+    position: relative;
+}
+
+.empower-img1 img{
+    width: 270px;
+    position: absolute;
+    right: 60%;
+}
+
+
+
+.empower-img2 img{
+    width: 570px;
+}
+
+.empower-img3 img{
+    width: 270px;
+    position: absolute;
+    bottom: -20%;
+    left: 70%;
+}
+
+#logos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
