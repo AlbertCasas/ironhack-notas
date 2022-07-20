@@ -152,7 +152,7 @@ header {
 #projects {
     height: 561px;
     padding: 0 15%
-    
+
 }
 
 .projects-title {
@@ -190,4 +190,28 @@ header {
 .card-text a {
     text-decoration: none;
     color: #072AC8;
+}
+
+#clients {
+    margin: 200px 15% 200px 15%;
+    width: 1320px;
+    height: 622px;
+    background-color: #292E47;
+    position: relative;
+}
+
+#prueba-circle {
+    width: 200px;
+    height:200px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    border:2px dashed black;
+}
+
+.elipse1 {
+    width: 1088px;
+    height: 1088px;
+    background-color: red;
+    border: 1px dashed #F4F6FC;
+    border-radius: 50%;
 }
