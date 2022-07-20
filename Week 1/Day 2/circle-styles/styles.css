@@ -72,7 +72,7 @@ header {
     height: 650px;
     display: flex;
     justify-content: center;
-    margin: 0 15%;
+    padding: 0 15%;
 }
 
 .empower-text {
@@ -145,17 +145,20 @@ header {
     justify-content: space-evenly;
     margin-top: 200px;
     margin-bottom: 200px;
+    padding: 0 15%;
+
 }
 
 #projects {
     height: 561px;
+    padding: 0 15%
     
 }
 
 .projects-title {
     color: #292E47;
     font-size: 1.5rem;
-    margin-left: 75px;
+    margin-left: 50px;
 }
 
 .cards-container {
@@ -163,30 +166,28 @@ header {
     justify-content: space-around;
 }
 
-.card1 {
+.card {
     background-color: white;
     width: 340px;
     height: 440px;
 }
 
-.card1 img {
-    width: 340px;
-}
-
-.card2 {
-    background-color: white;
-}
-
-.card2 img {
+.card img {
     width: 340px;
     height: 240px;
 }
 
-.card3 {
-    background-color: white;
+.card-text {
+    padding-left: 20px;
 }
 
-.card3 img {
-    width: 340px;
-    height: 240px;
+.card-text h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #292E47;
+}
+
+.card-text a {
+    text-decoration: none;
+    color: #072AC8;
 }
